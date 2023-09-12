@@ -1,49 +1,45 @@
 body {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 #H1Lasagna {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
-.ingredients, .directions {
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+.ingredients,
+.directions {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
 }
 
-.recipeimageshomepage img
-{
-    height: auto;
-    width: border;
-    margin-left: auto;
-    margin-right: auto;
-   
+.recipeimageshomepage img {
+  height: auto;
+  width: border;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  padding: 10px;
 }
 
-.recipenameshomepage
-{
-    font-weight: 800px;
+.recipenameshomepage {
+  font-weight: 800px;
 }
 
-
-#subheadinglasagna
-{
-    text-align: center;
+#subheadinglasagna {
+  text-align: center;
 }
 
-.recipeimageshomepage img
-{
-    width: 200px;
-    height: auto;
+.recipenameshomepage {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  /* Find out how to get rid of the underline for recipe names on home page. */
 }
 
-
-
-.recipenameshomepage
-{
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    /* Find out how to get rid of the underline for recipe names on home page. */
+.lasagnaimage img {
+  display: block;
+  margin: 0 auto;
 }
